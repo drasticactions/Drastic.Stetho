@@ -1,0 +1,56 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='com.facebook.stetho.websocket']/class[@name='WebSocketHandler']/method[@name='handleSecured' and count(parameter)=3 and parameter[1][@type='org.apache.http.HttpRequest'] and parameter[2][@type='org.apache.http.HttpResponse'] and parameter[3][@type='org.apache.http.protocol.HttpContext']]" 
+				name="visibility">
+		protected
+	</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.server']/class[@name='SecureHttpRequestHandler']/method[@name='handle' and count(parameter)=3 and parameter[1][@type='org.apache.http.HttpRequest'] and parameter[2][@type='org.apache.http.HttpResponse'] and parameter[3][@type='org.apache.http.protocol.HttpContext']]"
+				name="managedName">
+		handleRequest
+	</attr>
+	<attr path="/api/package[@name='com.facebook.stetho']/class[@name='Stetho.Initializer.LoggingCatchAllHandler']/method[@name='handle' and count(parameter)=3 and parameter[1][@type='org.apache.http.HttpRequest'] and parameter[2][@type='org.apache.http.HttpResponse'] and parameter[3][@type='org.apache.http.protocol.HttpContext']]"
+				name="managedName">
+		handleRequest
+	</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.network']/class[@name='CountingOutputStream']"
+				name="visibility">
+		public
+	</attr>
+	<attr path="/api/package[@name='com.facebook.stetho']" name="managedName">DrasticStetho</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.domstorage']" name="managedName">DrasticStetho.Inspector.DOMStorage</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.elements']" name="managedName">DrasticStetho.Inspector.Elements</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.common']" name="managedName">DrasticStetho.Common</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.common.android']" name="managedName">DrasticStetho.Common.Android</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.dumpapp']" name="managedName">DrasticStetho.DumpApp</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.dumpapp.plugins']" name="managedName">DrasticStetho.DumpApp.Plugins</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector']" name="managedName">DrasticStetho.Inspector</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.console']" name="managedName">DrasticStetho.Inspector.Console</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.database']" name="managedName">DrasticStetho.Inspector.Database</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.elements.android']" name="managedName">DrasticStetho.Inspector.Elements.Android</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.helper']" name="managedName">DrasticStetho.Inspector.Helper</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.jsonrpc']" name="managedName">DrasticStetho.Inspector.JsonRpc</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.jsonrpc.protocol']" name="managedName">DrasticStetho.Inspector.JsonRpc.Protocol</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.network']" name="managedName">DrasticStetho.Inspector.Network</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.protocol']" name="managedName">DrasticStetho.Inspector.Protocol</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.inspector.protocol.module']" name="managedName">DrasticStetho.Inspector.Protocol.Module</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.json']" name="managedName">DrasticStetho.Json</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.json.annotation']" name="managedName">DrasticStetho.Json.Annotation</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.server']" name="managedName">DrasticStetho.Server</attr>
+	<attr path="/api/package[@name='com.facebook.stetho.websocket']" name="managedName">DrasticStetho.WebSocket</attr>
+
+  <remove-node path="/api/package[@name='com.facebook.stetho.inspector.elements']/class[@name='Descriptor']" />
+  <remove-node path="/api/package[@name='com.facebook.stetho.inspector.database']/class[@name='SqliteDatabaseDriver']" />
+  <remove-node path="/api/package[@name='com.facebook.stetho.inspector.database']/class[@name='SqliteDatabaseDriver']/method[@name='getDatabaseNames' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.facebook.stetho.inspector.elements']/class[@name='ObjectDescriptor']" />
+  <remove-node path="/api/package[@name='com.facebook.stetho.inspector.elements']/class[@name='AbstractChainedDescriptor']" />
+  <remove-node path="/api/package[@name='com.facebook.stetho.inspector.database']/class[@name='DatabaseDriver2Adapter']" />
+  <remove-node path="/api/package[@name='com.facebook.stetho.inspector.database']/class[@name='ContentProviderDatabaseDriver']" />
+  <remove-node path="/api/package[@name='com.facebook.stetho.server']/class[@name='LocalSocketHttpServerConnection']/method[@name='setSocketTimeout' and count(parameter)=1 and parameter[1][@type='int']]" />
+  <remove-node path="/api/package[@name='com.facebook.stetho.server']/class[@name='LocalSocketHttpServerConnection']/method[@name='getSocketTimeout' and count(parameter)=0]" />
+</metadata>

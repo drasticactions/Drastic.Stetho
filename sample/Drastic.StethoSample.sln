@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.Stetho", "..\src\Drastic.Stetho\Drastic.Stetho.csproj", "{0B2ADE48-23D4-4038-A8EB-C02FE8794C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.StethoSample", "Drastic.StethoSample\Drastic.StethoSample.csproj", "{FB1F1A50-D727-40A1-98E5-59C620EFBA1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B2ADE48-23D4-4038-A8EB-C02FE8794C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2ADE48-23D4-4038-A8EB-C02FE8794C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2ADE48-23D4-4038-A8EB-C02FE8794C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2ADE48-23D4-4038-A8EB-C02FE8794C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1F1A50-D727-40A1-98E5-59C620EFBA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1F1A50-D727-40A1-98E5-59C620EFBA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1F1A50-D727-40A1-98E5-59C620EFBA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1F1A50-D727-40A1-98E5-59C620EFBA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
